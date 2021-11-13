@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 body {
   background: rgb(238, 238, 238);
+}
+.card {
+  box-shadow: 0 4px 15px 7px rgba(0, 0, 0, 0.2);
+  background: rgb(238, 238, 238);
   background: radial-gradient(
     circle,
     rgba(238, 238, 238, 1) 5%,
@@ -8,15 +12,14 @@ body {
     rgba(250, 234, 203, 1) 81%,
     rgba(230, 208, 178, 0.8) 96%
   );
-}
-.card {
-  box-shadow: 0 4px 15px 7px rgba(0, 0, 0, 0.2);
-
-  background: rgba(238, 238, 238, 0.099);
   height: 90%;
   width: 90%;
-  margin: 90px 0px 90px 0px;
-  margin-left: 90px !important;
+  /* margin: 90px 0px 90px 0px;
+  margin-left: 90px !important; */
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 /* h1 {
   margin: 100px;
@@ -109,6 +112,14 @@ body {
   .gallery img {
     border-radius: 20px !important;
   }
+  .card {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 }
 @media (max-width: 480px) {
   .gallery {
@@ -121,6 +132,14 @@ body {
   }
   .gallery img {
     border-radius: 20px !important;
+  }
+  .card {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -157,7 +176,7 @@ body {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 20px 0 20px;
+  /* padding: 20px 0 20px; */
   margin: 0 auto;
   box-shadow: 5px 9px 9px 2px rgba(87, 87, 87, 0.56);
   -webkit-box-shadow: 5px 9px 9px 2px rgba(87, 87, 87, 0.56);
