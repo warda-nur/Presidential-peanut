@@ -91,6 +91,27 @@ body {
   transform: scale(0.9);
 }
 
+@media (max-width: 3000px) {
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+  .gallery img {
+    border-radius: 20px !important;
+  }
+  .card {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
 @media (max-width: 991px) {
   .gallery {
     -webkit-column-count: 2;
